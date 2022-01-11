@@ -1,6 +1,17 @@
 *pokemon game*
 
 
+
+
+![](https://www.logolynx.com/images/logolynx/9f/9f21a433280ff4df4f143dad2fbe13b6.png)
+
+
+
+
+
+
+
+
 **links:**
 
 
@@ -16,7 +27,6 @@ Weighted Graphs :
 
 A weighted graph is a graph with edges labeled by numbers (called weights). In general, we only consider nonnegative edge weights. Sometimes, ∞ can also be allowed as a weight, which in optimization problems generally means we must (or may not) use that edge. In many applications, each edge of a graph has an associated numerical value, called a weight. Usually, the edge weights are nonnegative integers. Weighted graphs may be either directed or undirected. The weight of an edge is often referred to as the “cost” of the edge. In applications, the weight may be a measure of the length of a route, the capacity of a line, the energy required to move between locations along a route, etc.
 SyntaxEditor Code Snippet
-![](https://www.logolynx.com/images/logolynx/9f/9f21a433280ff4df4f143dad2fbe13b6.png)
  
 WGraph_DS class:** Each graph has the following properties:_
 **there is 3 HashMaps :**
