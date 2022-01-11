@@ -76,6 +76,12 @@ return the number of all  edeges in the graph
 - **getMC():**
 it return how much  changes was in the graph. 
 
+
+Diagram: 
+
+file:///C:/Users/USER1/Desktop/uml.png
+
+
                                                                                         
 ** WGraph_Algo:**
 _The Graph Algo class contains all algorithms that can be run on a graph._
