@@ -1,29 +1,24 @@
- ### _:fire:Welcome To Pokemon Game_:fire:
+*pokemon game*
+
+
+**links:**
+
+
+1)https://www.youtube.com/watch?v=gx_qorHxBpI
+
+2)https://stackoverflow.com/questions/7942384/simple-java-pokemon-fight-simulator
+
+3)https://kandi.openweaver.com/java/rizaozcelik/PokemonGame
+
+For a final project in a computer science class, I developed many individual pieces of code that eventually came together as a playable game. Interfaces were developed for the many possible Pokemon types (e.g. grass, electric, etc.) in order to allow strengths and weaknesses to play a part in combat. Several dozen separate pokemon were developed, with unique names, types, and stats, along with unique growth rates once instantiated. A battle system was then developed to allow two players to compete. They would each choose a pokemon, name them, and then watch the action happen…in text form. In addition, a method for catching pokemon and storing them was created, including a “pokedex” which stored information about all pokemon caught even when traded away or released. Once the game was functional, I developed a GUI (Graphical User Interface) such that with a text input box and four buttons all of these actions could be undertaken by the player(s)
+
+Weighted Graphs :
+
+A weighted graph is a graph with edges labeled by numbers (called weights). In general, we only consider nonnegative edge weights. Sometimes, ∞ can also be allowed as a weight, which in optimization problems generally means we must (or may not) use that edge. In many applications, each edge of a graph has an associated numerical value, called a weight. Usually, the edge weights are nonnegative integers. Weighted graphs may be either directed or undirected. The weight of an edge is often referred to as the “cost” of the edge. In applications, the weight may be a measure of the length of a route, the capacity of a line, the energy required to move between locations along a route, etc.
+SyntaxEditor Code Snippet
+![](https://www.logolynx.com/images/logolynx/9f/9f21a433280ff4df4f143dad2fbe13b6.png)
  
- ![](https://www.logolynx.com/images/logolynx/9f/9f21a433280ff4df4f143dad2fbe13b6.png)
- 
- 
- :round_pushpin: 
- _Part one_
-----------------------------------------
-### :world_map: Directed (positive) Weighted Graph
-
-
-**In this project we built a directed graph which is also a weighted graph:**
-
-**Here are the departments that build the graph:**
-
-**Node:**_implements node_data and its contain:_
-
-              getKey(), getLocation(),setLocation,getWeight(),setWeight(double w),getInfo,setInfo(String s),double getTag(),setTag(double t) 
-
-**Edge:**_implements edge_data and its contain:_
-
-              getSrc(),getDest(),getWeight(),getInfo(),setInfo(String s),getTag(),setTag(int t)
-              
-**:zap:WGraph_DS class:**
-
-Each graph has the following properties:_
+WGraph_DS class:** Each graph has the following properties:_
 **there is 3 HashMaps :**
 
  - **"vertex"**
@@ -35,14 +30,12 @@ Each graph has the following properties:_
  - **mc:**
    count of the change
 
-:pushpin:_**the fanctions:**_
 
 - **WGraph_DS ():**
 creating a new graph
 
 - **getNode(int key):**
 returns the node_data by the node_id
-
 
 - **getEdge(int node1, int node2):**
 returns the data of the edge (src,dest)
@@ -72,12 +65,12 @@ return the number of all  edeges in the graph
 
 - **getMC():**
 it return how much  changes was in the graph. 
-......................................................................................................................................................................................................................................................
+
                                                                                         
-**:zap: WGraph_Algo:**
+** WGraph_Algo:**
 _The Graph Algo class contains all algorithms that can be run on a graph._
 
-   :pushpin: _**the fanctions:**_
+   **the fanctions:**_
 
 - **init(directed_weighted_graph g):** Init the graph on which this set of algorithms operates on.
 
@@ -94,14 +87,9 @@ _The Graph Algo class contains all algorithms that can be run on a graph._
 - **save(String file):** Saves this weighted (directed) graph to the given -> file name - in JSON format
 
 - **load(String file):** This method load a graph to this graph algorithm.
- -------------------------------------------------------------------------------------------------------------------------
-  -------------------------------------------------------------------------------------------------------------------------
- ### _:round_pushpin:  Part two_
- ![](https://fount.in/wp-content/uploads/2016/10/pokemon-go-apk.png)
 
-### Pekemon game
 
- - **Arena:**
+
   This class represents a multi Agents Arena which move on a graph - grabs Pokemons and avoid the Zombies.
   - **CL_Agent:**
  - **CL_Pokemon:**
@@ -116,64 +104,155 @@ _The Graph Algo class contains all algorithms that can be run on a graph._
   Note: this code is a very simple no algorithm no threaded mechanism - it is presented just to show the basic
   use of the "server".
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
----------------------------------------------------------------------------------------------------- 
-_:books:_For more information to this project::point_down:
-- **Weighted Directed Graph:**-
-       
-     1) https://www.softwaretestinghelp.com/java-graph-tutorial/
+****class Client** :** 
 
-     2) https://wiki.c2.com/?WeightedDirectedGraph 
-     
-     3) https://youtu.be/XkeG0gYdytg
-
-     
-
-- **Gson:**- **https://en.wikipedia.org/wiki/Gson**
-- **Check the jeson online:**- **https://jsonformatter.curiousconcept.com/**
-- **HashMap:**- **https://www.youtube.com/watch?v=ceh8s-r53m0&ab_channel=JavaCodeGeeks**
-- **Check if a graph is strongly connected:**- **https://www.geeksforgeeks.org/connectivity-in-a-directed-graph/**
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/CPT-Graphs-directed-weighted-ex2.svg/175px-CPT-Graphs-directed-weighted-ex2.svg.png) 
-            ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CPT-Graphs-directed-weighted-ex1.svg/175px-CPT-Graphs-directed-weighted-ex1.svg.png)
+* to start a new connection to the game server
 
 
-![](https://i.ytimg.com/vi/KrPKq4lk1NQ/maxresdefault.jpg)
-  
- 
- 
+* @param ip
+
+* @param port
+
+* @throws UnknownHostException
+
+* @throws IOException
+
+
+public void startConnection(String ip, int port) throws UnknownHostException,
+
+
+
+}
+
+private String sendMessage(String msg) throws IOException 
+
+* use this function to signal end of comunication with the server.
+
+
+* @throws IOException
+
+
+public void stopConnection() throws IOException {
+
+return json str of agents
+
+
+public String getAgents() 
+
+
+* @param jsonOfNode should be in this format:
 
 
 
 
 
 
+* (replace 0 with the desired starting node for the agent.)
+
+* return 'true' (as str) iff the agent has been added succesfuly
+
+
+public String addAgent(String jsonOfNode) 
+
+* use start to run the game
+
+
+public void start() 
+
+
+ <html>
+
+ <h1>choosing the next destination for a specific agent.</h1>
+
+* <h2>Note that if</h2>
+
+
+* 1. the agent is still moving on some edge, (a.k. agent.dest != -1)
+
+* or<br>
+
+* 2. the "next_node_id" isn't an adjacent vertex of agent.src,
+
+* then move() won't be affected by this invalid "next_node_id" choice.
+
+
+* @param jsonAgentAndNode next_agent_node_json should be in format:
+
+public void chooseNextEdge(String jsonAgentAndNode) 
+
+
+
+* activate all valid choose_next_edge calls. returns: agents state with the
+
+* same form as get_agents()
+
+
+public void move() 
+
+
+* use stop to end the game and upload results.
+
+* Note: results will be uploaded only after login and scores > 0.
+
+
+public void stop() 
+
+
+* returns the graph as json str. for example:
+
+
+
+* @return the graph as json str
+
+
+public String getGraph() 
+
+
+* enter your id as str to login and upload your score to the web server
+
+
+public void login(String id) 
+
+
+
+* returns the current pokemons state as json str.
+
+
+
+* @return returns the current pokemons state as json str.
+
+* for pokemon lying on edge (src,dest)
+
+
+public String getPokemons() 
+
+* @return time to end in mili-seconds str. for example: '29996'
+
+
+public String timeToEnd() 
+
+
+
+
+* @return 'true' (as str) if the game is still running, else: returns 'false'
+
+* (also str)
+
+
+public String isRunning() 
+
+
+
+
+
+
+
+
+* returns the current game info. for example:
+
+
+
+
+* @return the current game info.
+ 
+public String getInfo()
