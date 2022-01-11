@@ -1,4 +1,4 @@
-*pokemon game*
+pokemon game
 
 
 
@@ -79,11 +79,13 @@ it return how much  changes was in the graph.
 
 Diagram: 
 
-file:///C:/Users/USER1/Desktop/uml.png
+
+https://github.com/marwanhresh/oop_pekomon-/blob/main/uml.png
 
 
                                                                                         
 ** WGraph_Algo:**
+
 _The Graph Algo class contains all algorithms that can be run on a graph._
 
    **the fanctions:**_
