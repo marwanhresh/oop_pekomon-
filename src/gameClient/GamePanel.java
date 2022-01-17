@@ -55,19 +55,19 @@ public class GamePanel extends JPanel{
         g.setFont(font);
 
         //show level
-        int level = Ex2.getLevelNumber();
+        int level = Ex4.getLevelNumber();
         g.drawString("Level number: " + level, w - w / 5, h / 15);
 
         //Show time to End
-        long timeToEnd = Ex2.getTime();
+        long timeToEnd = Ex4.getTime();
         g.drawString("Time to End: " + timeToEnd / 1000, w - w / 5, h / 15 + 20);
 
         //show grade
-        double grade = Ex2.getGrade();
+        double grade = Ex4.getGrade();
         g.drawString("Grade: " + (int) grade, w - w / 5, h / 15 + 40);
 
         //show moves
-        int moves = Ex2.getMoves();
+        int moves = Ex4.getMoves();
         g.drawString("Moves: " + moves, w - w / 5, h / 15 + 60);
     }
 
