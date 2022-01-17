@@ -1,6 +1,6 @@
 package gameClient;
 
-import Server.Game_Server_Ex2;
+import Server.Game_Server_Ex4;
 import api.*;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -12,7 +12,7 @@ import java.util.*;
 /**
  * this class includes function that starts the game.
  */
-public class Ex2 implements Runnable {
+public class Ex4 implements Runnable {
 
     private static GameFrame _win;
     private static Arena arena;
@@ -43,7 +43,7 @@ public class Ex2 implements Runnable {
      */
     @Override
     public void run() {
-        game_service game = Game_Server_Ex2.getServer(level_number); // you have [0,23] levels
+        game_service game = Game_Server_Ex4.getServer(level_number); 
 //      System.out.println(game.getGraph());
 //      System.out.println(game.getPokemons());
 //      System.out.println(game);
