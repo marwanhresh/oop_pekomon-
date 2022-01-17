@@ -22,7 +22,7 @@ public class Ex4 implements Runnable {
     public static int level_number;
     public static int ID;
     private static HashMap<Integer, CL_Pokemon> agentToPokemon = new HashMap<Integer, CL_Pokemon>();
-    public static Thread client = new Thread(new Ex2());
+    public static Thread client = new Thread(new Ex4());
 
     /**
      * Call for user to insert login ID number, and a level number.
