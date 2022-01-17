@@ -1,6 +1,6 @@
 package gameClient;
 
-import Server.Game_Server_Ex2;
+import Server.Game_Server_Ex4;
 import api.game_service;
 
 import javax.swing.*;
