@@ -35,9 +35,9 @@ public class Label extends JFrame {
         b = new JButton("Start");
         b.setBounds(50, 150, 95, 30);
 
-        b.addActionListener(e -> Ex2.ID= Integer.parseInt(tf1.getText()));
-        b.addActionListener(e -> Ex2.level_number= Integer.parseInt(tf2.getText()));
-        b.addActionListener(e -> Ex2.client.start());
+        b.addActionListener(e -> Ex4.ID= Integer.parseInt(tf1.getText()));
+        b.addActionListener(e -> Ex4.level_number= Integer.parseInt(tf2.getText()));
+        b.addActionListener(e -> Ex4.client.start());
         //b.addActionListener(this);
 
         add(id);
